@@ -6,12 +6,13 @@ import {
   FaUserFriends,
   FaChartBar,
   FaTools,
+  FaTruck, // <- ícono para Proveedores
 } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation'; // <- Importante
-import { Pagination, Navigation } from 'swiper/modules'; // <- Agregá Navigation
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
 
 export default function Modules() {
   const modules = [
@@ -22,6 +23,7 @@ export default function Modules() {
     { icon: <FaUserFriends />, name: 'Clientes' },
     { icon: <FaChartBar />, name: 'Dashboard' },
     { icon: <FaTools />, name: 'Herramientas (próximamente)' },
+    { icon: <FaTruck />, name: 'Proveedores (próximamente)' }, // <- Nuevo módulo agregado
   ];
 
   return (
@@ -32,12 +34,12 @@ export default function Modules() {
           slidesPerView={1}
           spaceBetween={20}
           pagination={{ clickable: true }}
-          navigation={true} // <- Activá la navegación
+          navigation={true}
           breakpoints={{
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
-          modules={[Pagination, Navigation]} // <- Agregá Navigation acá
+          modules={[Pagination, Navigation]}
           className="px-10"
         >
           {modules.map((mod, idx) => (

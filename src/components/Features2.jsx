@@ -55,9 +55,9 @@ export default function Features() {
 
 
   return (
-    <section id="features" className='bg-gray-100'>
+    <section id="features" className='mx-auto bg-gray-100'>
       <div className='w-[80%] mx-auto'>
-      <h2 className="text-3xl font-bold text-center py-10 ">
+      <h2 className="text-4xl font-bold text-center py-10 text-primary ">
         ¿Por qué elegir nuestra app?
       </h2>
 

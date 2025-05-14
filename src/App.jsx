@@ -4,6 +4,7 @@ import Modules from "./components/Modules";
 import CTA from "./components/CTA";
 import ContactForm from "./components/ContactForm";
 import Features2 from "./components/Features2";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       <Features2/>
       <Modules />
       <CTA />
-      <ContactForm />
+      {/*<ContactForm />*/}
+      <Footer/>
     </main>
   );
 }

@@ -130,3 +130,22 @@ button:focus-visible {
 .animate-fade-up {
   animation: fade-in-up 0.8s ease-out;
 }
+
+
+/* Animación de agrandado con sombra */
+@keyframes enlarge-shadow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    transform: scale(1.05);  /* Aumentamos ligeramente el tamaño */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);  /* Sombra más pronunciada */
+  }
+}
+
+/* Clase para aplicar la animación */
+.enlarge-with-shadow {
+  animation: enlarge-shadow 0.3s ease-in-out;
+  transform-origin: center center; /* Aseguramos que la imagen se agrande desde el centro */
+}

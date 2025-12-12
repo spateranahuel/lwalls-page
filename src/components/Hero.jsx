@@ -30,7 +30,7 @@ export default function Hero() {
       <img src="/logo2.png" alt="Logo" className="w-64 mb-6 drop-shadow-lg animate-fade-in" />
 
       <h1 className="font-raleway text-4xl sm:text-5xl font-extrabold mb-4 max-w-xl text-white leading-tight animate-slide-left">
-  Gestioná tu constructora desde un solo lugar
+  Gestioná tus proyectos desde un solo lugar
 </h1>
 
 <p className="italic font-openSans text-sm sm:text-base mb-10 text-white/80 max-w-md animate-fade-up">

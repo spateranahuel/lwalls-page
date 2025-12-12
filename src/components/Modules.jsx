@@ -16,14 +16,14 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 export default function Modules() {
   const modules = [
-    { icon: <FaCashRegister />, name: 'Caja', desc: 'Gestión de ingresos y egresos.' },
-    { icon: <FaHardHat />, name: 'Obras', desc: 'Seguimiento de avances y tareas.' },
-    { icon: <FaFileInvoice />, name: 'Presupuestos', desc: 'Creación y control de presupuestos.' },
-    { icon: <FaUsers />, name: 'Empleados', desc: 'Gestión de personal y pagos.' },
-    { icon: <FaUserFriends />, name: 'Clientes', desc: 'Información y contacto de clientes.' },
-    { icon: <FaChartBar />, name: 'Dashboard', desc: 'Panel visual de indicadores.' },
-    { icon: <FaTools />, name: 'Herramientas (próximamente)', desc: 'Módulo en desarrollo.' },
-    { icon: <FaTruck />, name: 'Proveedores (próximamente)', desc: 'Módulo en desarrollo.' },
+    { icon: <FaCashRegister />, name: 'Caja', desc: 'Gestión de ingresos y egresos, tanto generales como discriminados por proyecto. Controlá el flujo financiero de tu empresa con precisión y claridad.' },
+    { icon: <FaHardHat />, name: 'Obras', desc: 'Seguimiento de avances y tareas por proyecto. Organizá el trabajo en etapas, subetapas y EDT para una planificación eficiente y trazabilidad completa.' },
+    { icon: <FaFileInvoice />, name: 'Presupuestos', desc: 'Creación, edición y control de presupuestos. Generá propuestas detalladas y llevá el seguimiento de costos reales vs estimados.' },
+    { icon: <FaUsers />, name: 'Empleados', desc: 'Gestión integral del personal: cronogramas, asistencia, cálculo de sueldos y pagos. Todo lo necesario para administrar tu equipo de forma ordenada y transparente.' },
+    { icon: <FaUserFriends />, name: 'Clientes', desc: 'Información y contacto de clientes. Accedé rápidamente a sus datos, historial de proyectos y comunicaciones.' },
+    { icon: <FaChartBar />, name: 'Dashboard', desc: 'Panel visual de indicadores por proyecto y generales de la empresa. Tomá decisiones estratégicas con métricas claras y actualizadas.' },
+    { icon: <FaTools />, name: 'Inventario', desc: 'Control de stock de herramientas, materiales e indumentaria. Asigná recursos a proyectos y empleados, y llevá un registro preciso de entradas y salidas.' },
+    { icon: <FaTruck />, name: 'Proveedores', desc: 'Gestión de órdenes, pagos y saldos con proveedores. Mantené relaciones comerciales ordenadas y sin imprevistos.' },
   ];
 
   return (

@@ -6,14 +6,14 @@ export default function Features() {
     {
       title: 'Todo en un solo lugar',
       description:
-        'Centralizá toda la información de tus obras, presupuestos, clientes, empleados, proveedores, herramientas y caja.',
+        'Centralizá toda la información de tus obras, presupuestos, clientes, empleados, proveedores, herramientas, indumentaria, materiales y caja.',
       image: '/mockup-pc3.png',
       icon: 'fa-th-large',
     },
     {
       title: 'Seguimiento en tiempo real',
       description:
-        'Consultá métricas clave en tiempo real, tanto generales como de obra, y tomá decisiones rápidas desde cualquier dispositivo.',
+        'Consultá métricas clave en tiempo real, tanto generales como de obra. Tomá decisiones rápidas desde cualquier dispositivo.',
       image: '/screen23.png',
       icon: 'fa-sync-alt',
     },

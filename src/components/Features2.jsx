@@ -7,21 +7,21 @@ export default function Features() {
       title: 'Todo en un solo lugar',
       description:
         'Centralizá toda la información de tus obras, presupuestos, clientes, empleados, proveedores, herramientas, indumentaria, materiales y caja.',
-      image: '/mockup-pc3.png',
+      image: `${import.meta.env.BASE_URL}mockup-pc3.png`,
       icon: 'fa-th-large',
     },
     {
       title: 'Seguimiento en tiempo real',
       description:
         'Consultá métricas clave en tiempo real, tanto generales como de obra. Tomá decisiones rápidas desde cualquier dispositivo.',
-      image: '/screen23.png',
+      image: `${import.meta.env.BASE_URL}screen23.png`,
       icon: 'fa-sync-alt',
     },
     {
       title: 'Gestión completa',
       description:
         'Controlá todos los aspectos de tu empresa desde un solo lugar, optimizando recursos y reduciendo errores.',
-      image: '/screen2.png',
+      image: `${import.meta.env.BASE_URL}screen2.png`,
       icon: 'fa-tachometer-alt',
     },
   ];

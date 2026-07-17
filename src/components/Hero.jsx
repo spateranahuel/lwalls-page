@@ -27,10 +27,10 @@ export default function Hero() {
 
   return (
     <section className="bg-primary text-white min-h-screen flex flex-col items-center justify-center px-4 text-center relative overflow-hidden">
-      <img src="/logo2.png" alt="Logo" className="w-64 mb-6 drop-shadow-lg animate-fade-in" />
+      <img src={`${import.meta.env.BASE_URL}logo2.png`} alt="Logo" className="w-64 mb-6 drop-shadow-lg animate-fade-in" />
 
       <h1 className="font-raleway text-4xl sm:text-5xl font-extrabold mb-4 max-w-xl text-white leading-tight animate-slide-left">
-  Gestioná tus proyectos desde un solo lugar
+  Gestioná tus proyectos desde un solo lugarr
 </h1>
 
 <p className="italic font-openSans text-sm sm:text-base mb-10 text-white/80 max-w-md animate-fade-up">

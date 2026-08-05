@@ -57,7 +57,7 @@ export default function Features() {
   return (
     <section id="features" className='mx-auto bg-gray-100'>
       <div className='w-[90%] sm:w-[85%] md:w-[80%] max-w-5xl mx-auto'>
-      <h2 className="text-4xl font-bold text-center py-10 text-primary ">
+      <h2 className="font-raleway text-4xl font-bold text-center py-10 text-primary ">
         ¿Por qué elegir nuestra app?
       </h2>
 
@@ -99,10 +99,10 @@ export default function Features() {
                 <div className="mb-4 text-4xl text-primary group-hover:text-white">
                   <i className={`fas ${feature.icon}`}></i>
                 </div>
-                <h3 className="group-hover:text-white text-2xl font-semibold mb-2">
+                <h3 className="font-raleway group-hover:text-white text-2xl font-semibold mb-2">
                   {feature.title}
                 </h3>
-                <p className="group-hover:text-white">{feature.description}</p>
+                <p className="font-openSans group-hover:text-white">{feature.description}</p>
               </div>
             </div>
           </div>

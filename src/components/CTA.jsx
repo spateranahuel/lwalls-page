@@ -3,8 +3,8 @@ export default function ContactForm() {
   return (
     <section className="py-16 px-6 bg-gray-100">
       <div className="max-w-xl mx-auto text-center mb-10">
-        <h2 className="text-4xl font-bold text-primary mb-2">¿Querés más información?</h2>
-        <p className="text-gray-600">Dejanos tus datos y te contactamos a la brevedad.</p>
+        <h2 className="font-raleway text-4xl font-bold text-primary mb-2">¿Querés más información?</h2>
+        <p className="font-openSans text-gray-600">Dejanos tus datos y te contactamos a la brevedad.</p>
       </div>
 
       <form className="max-w-xl mx-auto grid gap-4 bg-white p-6 rounded-lg shadow-md">

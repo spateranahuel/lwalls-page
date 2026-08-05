@@ -8,17 +8,15 @@ module.exports = {
     extend: {
       colors: {
         primary: "#2B6795",
+        secondary: "#4C93C4",
         /*#27608A
           #2B6795
           #24577A
           #3076A6*/
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif'],
         openSans: ['"Open Sans"', 'sans-serif'],
-        raleway: ['Raleway', 'sans-serif'], // ✅ agregada
+        raleway: ['Raleway', 'sans-serif'],
       },
       animation: {
         'bounce-slow': 'bounce 3s infinite',

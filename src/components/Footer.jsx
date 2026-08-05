@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center justify-center md:justify-start space-x-2">
               <img src={`${import.meta.env.BASE_URL}logo2.png`} alt="L-WALLS Logo" className="w-32 h-auto" />
             </div>
-            <p className="text-sm">© {new Date().getFullYear()} Todos los derechos reservados</p>
+            <p className="font-openSans text-sm">© {new Date().getFullYear()} Todos los derechos reservados</p>
           </div>
 
           {/* Enlaces de contacto */}
@@ -18,15 +18,15 @@ export default function Footer() {
             <div className="flex flex-col space-y-4 text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start">
                 <FaWhatsapp className="inline-block mr-3 text-white" />
-                <span className="text-sm">WhatsApp: <a href="https://wa.me/5492257523265" className="text-white hover:text-secondary transition-colors">+5492257523265</a></span>
+                <span className="font-openSans text-sm">WhatsApp: <a href="https://wa.me/5492257523265" className="text-white hover:text-secondary transition-colors">+5492257523265</a></span>
               </div>
               <div className="flex items-center justify-center md:justify-start">
                 <FaEnvelope className="inline-block mr-3 text-white" />
-                <span className="text-sm">Email: <a href="mailto:info@lwalls.com" className="text-white hover:text-secondary transition-colors">info@lwalls.com</a></span>
+                <span className="font-openSans text-sm">Email: <a href="mailto:info@lwalls.com" className="text-white hover:text-secondary transition-colors">info@lwalls.com</a></span>
               </div>
               <div className="flex items-center justify-center md:justify-start">
                 <FaInstagram className="inline-block mr-3 text-white" />
-                <span className="text-sm">Instagram: <a href="https://www.instagram.com/lwalls.app" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">@lwalls.app</a></span>
+                <span className="font-openSans text-sm">Instagram: <a href="https://www.instagram.com/lwalls.app" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">@lwalls.app</a></span>
               </div>
             </div>
           </div>

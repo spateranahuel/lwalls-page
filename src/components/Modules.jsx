@@ -28,7 +28,7 @@ export default function Modules() {
 
   return (
     <section className="py-16 px-6 bg-primary">
-      <h2 className="text-4xl font-bold text-center text-white mb-10">Módulos disponibles</h2>
+      <h2 className="font-raleway text-4xl font-bold text-center text-white mb-10">Módulos disponibles</h2>
       <div className="relative max-w-5xl mx-auto">
         <Swiper
           slidesPerView={1}
@@ -46,8 +46,8 @@ export default function Modules() {
             <SwiperSlide key={idx}>
               <div className="transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col items-center justify-center p-6 bg-white/10 rounded-xl shadow-md min-h-[13rem] h-auto text-white text-center">
                 <div className="text-3xl bg-white/20 p-4 rounded-full mb-3">{mod.icon}</div>
-                <p className="text-lg font-semibold">{mod.name}</p>
-                <p className="text-sm text-white/80 mt-1">{mod.desc}</p>
+                <p className="font-raleway text-lg font-semibold">{mod.name}</p>
+                <p className="font-openSans text-sm text-white/80 mt-1">{mod.desc}</p>
               </div>
             </SwiperSlide>
           ))}

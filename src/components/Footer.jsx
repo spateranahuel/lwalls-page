@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center justify-center md:justify-start space-x-2">
               <img src={`${import.meta.env.BASE_URL}logo2.png`} alt="L-WALLS Logo" className="w-32 h-auto" />
             </div>
-            <p className="text-sm">© 2025 Todos los derechos reservados</p>
+            <p className="text-sm">© {new Date().getFullYear()} Todos los derechos reservados</p>
           </div>
 
           {/* Enlaces de contacto */}

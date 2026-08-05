@@ -37,14 +37,14 @@ export default function Modules() {
           navigation={true} // Habilita la navegación
           breakpoints={{
             640: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            900: { slidesPerView: 3 },
           }}
           modules={[Pagination, Navigation]}
           className="px-4"
         >
           {modules.map((mod, idx) => (
             <SwiperSlide key={idx}>
-              <div className="transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col items-center justify-center p-6 bg-white/10 rounded-xl shadow-md h-48 text-white text-center">
+              <div className="transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col items-center justify-center p-6 bg-white/10 rounded-xl shadow-md min-h-[13rem] h-auto text-white text-center">
                 <div className="text-3xl bg-white/20 p-4 rounded-full mb-3">{mod.icon}</div>
                 <p className="text-lg font-semibold">{mod.name}</p>
                 <p className="text-sm text-white/80 mt-1">{mod.desc}</p>

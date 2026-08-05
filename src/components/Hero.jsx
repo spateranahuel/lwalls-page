@@ -27,9 +27,9 @@ export default function Hero() {
 
   return (
     <section className="bg-primary text-white min-h-screen flex flex-col items-center justify-center px-4 text-center relative overflow-hidden">
-      <img src={`${import.meta.env.BASE_URL}logo2.png`} alt="Logo" className="w-64 mb-6 drop-shadow-lg animate-fade-in" />
+      <img src={`${import.meta.env.BASE_URL}logo2.png`} alt="Logo" className="w-40 sm:w-64 mb-6 drop-shadow-lg animate-fade-in" />
 
-      <h1 className="font-raleway text-4xl sm:text-5xl font-extrabold mb-4 max-w-xl text-white leading-tight animate-slide-left">
+      <h1 className="font-raleway text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 max-w-xl text-white leading-tight animate-slide-left">
   Gestioná tus proyectos desde un solo lugar
 </h1>
 
@@ -78,10 +78,10 @@ export default function Hero() {
   href="https://wa.me/5492257523265"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed bottom-10 right-10 z-50 group"
+  className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-50 group"
 >
-  <div className="bg-[#25D366] p-4 rounded-full shadow-xl transition-transform duration-300 group-hover:scale-110 animate-bounce-slow">
-    <FontAwesomeIcon icon={faWhatsapp} className="text-white text-4xl sm:text-5xl" />
+  <div className="bg-[#25D366] p-3 sm:p-4 rounded-full shadow-xl transition-transform duration-300 group-hover:scale-110 animate-bounce-slow">
+    <FontAwesomeIcon icon={faWhatsapp} className="text-white text-3xl sm:text-5xl" />
   </div>
 </a>
 

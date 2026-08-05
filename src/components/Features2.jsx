@@ -56,7 +56,7 @@ export default function Features() {
 
   return (
     <section id="features" className='mx-auto bg-gray-100'>
-      <div className='w-[80%] mx-auto'>
+      <div className='w-[90%] sm:w-[85%] md:w-[80%] max-w-5xl mx-auto'>
       <h2 className="text-4xl font-bold text-center py-10 text-primary ">
         ¿Por qué elegir nuestra app?
       </h2>
@@ -80,7 +80,7 @@ export default function Features() {
             data-index={i}
             className={`flex flex-col md:flex-row ${
               !isEven ? 'md:flex-row-reverse' : ''
-            } items-center gap-8 pb-36 px-6 bg-gray-100`}
+            } items-center gap-8 pb-16 md:pb-24 lg:pb-36 px-6 bg-gray-100`}
           >
             {/* Imagen */}
             <div className={`w-full md:w-1/2 ${imageAnimationClass}`}>
@@ -95,7 +95,7 @@ export default function Features() {
             <div
               className={`flex flex-1 justify-center items-center text-center ${cardAnimationClass}`}
             >
-              <div className="group hover:bg-primary w-[400px] bg-white rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 p-6">
+              <div className="group hover:bg-primary w-full max-w-[400px] bg-white rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 p-6">
                 <div className="mb-4 text-4xl text-primary group-hover:text-white">
                   <i className={`fas ${feature.icon}`}></i>
                 </div>

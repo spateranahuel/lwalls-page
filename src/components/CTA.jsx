@@ -11,21 +11,21 @@ export default function ContactForm() {
         <input
           type="text"
           placeholder="Nombre"
-          className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary"
+          className="p-3 border border-gray-300 rounded bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary"
         />
         <input
           type="text"
           placeholder="Empresa"
-          className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary"
+          className="p-3 border border-gray-300 rounded bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary"
         />
         <input
           type="email"
           placeholder="Email"
-          className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary"
+          className="p-3 border border-gray-300 rounded bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary"
         />
         <textarea
           placeholder="Mensaje (opcional)"
-          className="p-3 border border-gray-300 rounded h-32 resize-none focus:outline-none focus:ring-2 focus:ring-primary"
+          className="p-3 border border-gray-300 rounded h-32 resize-none bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary"
         />
         <button
           type="submit"
